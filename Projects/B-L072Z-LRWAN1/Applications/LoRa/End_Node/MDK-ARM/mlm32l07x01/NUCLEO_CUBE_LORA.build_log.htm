@@ -1,0 +1,65 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.31.0.0
+Copyright (C) 2020 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Minh Le, PE TECH, LIC=6PPLD-86QUI-A489K-CHKRK-8KHDN-E7BA1
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Cortex-M0/M0+ for ST  Version: 5.31.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.31.0.0
+Dialog DLL:      DARMCM1.DLL V1.19.3.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.7.0
+Dialog DLL:      TARMCM1.DLL V1.14.2.0
+ 
+<h2>Project:</h2>
+D:\Project\STM32CubeExpansion_LRWAN_V1.3.1\Projects\B-L072Z-LRWAN1\Applications\LoRa\End_Node\MDK-ARM\Lora.uvprojx
+Project File Date:  08/25/2021
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'mlm32l07x01'
+compiling main.c...
+..\LoRaWAN\App\src\main.c(258): warning:  #550-D: variable "pressure"  was set but never used
+    uint16_t pressure = 0;
+..\LoRaWAN\App\src\main.c(259): warning:  #550-D: variable "temperature"  was set but never used
+    int16_t temperature = 0;
+..\LoRaWAN\App\src\main.c(260): warning:  #550-D: variable "humidity"  was set but never used
+    uint16_t humidity = 0;
+..\LoRaWAN\App\src\main.c(261): warning:  #550-D: variable "batteryLevel"  was set but never used
+    uint8_t batteryLevel;
+..\LoRaWAN\App\src\main.c(273): warning:  #550-D: variable "latitude"  was set but never used
+    int32_t latitude, longitude = 0;
+..\LoRaWAN\App\src\main.c(273): warning:  #550-D: variable "longitude"  was set but never used
+    int32_t latitude, longitude = 0;
+..\LoRaWAN\App\src\main.c(274): warning:  #177-D: variable "altitudeGps"  was declared but never referenced
+    uint16_t altitudeGps = 0;
+..\LoRaWAN\App\src\main.c: 7 warnings, 0 errors
+linking...
+Program Size: Code=50632 RO-data=1872 RW-data=252 ZI-data=6564  
+FromELF: creating hex file...
+".\mlm32l07x01\NUCLEO_CUBE_LORA.axf" - 0 Error(s), 7 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32L0xx_DFP.2.1.0.pack
+                Keil.STM32L0xx_DFP.2.1.0
+                STMicroelectronics STM32L0 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\zzema\AppData\Local\Arm\Packs\Keil\STM32L0xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32L0xx\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:03
+</pre>
+</body>
+</html>
